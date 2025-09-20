@@ -34,7 +34,7 @@ const fortunes = [
     }
 
     function shareOnTwitter() {
-      const url = "https://example.com"; // あなたのアプリURLに変更できる
+      const url = "https://tenet64.github.io/uranai_aki/"
       const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(currentFortune)}&url=${encodeURIComponent(url)}`;
       window.open(twitterUrl, "_blank");
     }
