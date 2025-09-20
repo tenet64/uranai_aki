@@ -25,9 +25,9 @@ const fortunes = [
 
       let audio;
       if (result.food === "松茸") {
-        audio = new Audio("sound/爆発1.mp3");
+        audio = new Audio("sound/bakuhatu.mp3");
       } else {
-        audio = new Audio("sound/パッ.mp3")
+        audio = new Audio("sound/normal.mp3")
       }
       audio.play();
       document.getElementById("shareButton").style.display = "inline-block";
